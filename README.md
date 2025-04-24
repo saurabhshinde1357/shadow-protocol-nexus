@@ -39,6 +39,18 @@ An ultra-secure, high-performance frontend built for classified-level intelligen
     npm run dev
     ```
 
+ 📁 Folder Structure
+
+```bash
+src/
+│
+├── components/       # Reusable UI components
+├── pages/            # Pages like Home, Profile, Matches, Chat
+├── routes/           # React Router routes
+├── services/         # API, auth, and match logic
+├── assets/           # Images, logos, icons
+├── styles/           # Tailwind config and custom styles
+└── App.tsx           # Main App entry
 
 
  🧩 Customize It
