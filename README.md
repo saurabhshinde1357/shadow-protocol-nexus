@@ -1,73 +1,59 @@
-# Welcome to your Lovable project
+ 🕶️ Shadow Protocol Nexus
 
-## Project info
+An ultra-secure, high-performance frontend built for classified-level intelligence workflows — inspired by agencies like RAW and ISI. Built using React + ShadCN + Tailwind + Vite.
 
-**URL**: https://lovable.dev/projects/788408ac-7219-49a2-a1cc-7b5d3f21c900
+🚀 Features
 
-## How can I edit this code?
+- 🧠 Role-based dynamic routing (admin/agent/operator)
+- 🔒 Military-grade UI/UX with black-ops design
+- 🎯 Blazing-fast frontend with Vite
+- 🎛️ Modular ShadCN components for secure dashboards
+- 🧬 Fully customizable mission control panel
 
-There are several ways of editing your application.
+ 🧱 Built With
 
-**Use Lovable**
+- React — Component-based UI
+- ShadCN/UI — For clean, accessible design
+- Tailwind CSS — Fast utility-first styling
+ - Vite — Lightning-fast bundler
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/788408ac-7219-49a2-a1cc-7b5d3f21c900) and start prompting.
+ 🧠 Vision
 
-Changes made via Lovable will be committed automatically to this repo.
+> "Information is the most dangerous weapon. Shadow Protocol Nexus is the command center for digital intelligence."
 
-**Use your preferred IDE**
+ 🛠️ Setup
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/YOUR_USERNAME/shadow-protocol-nexus.git
+    ```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+2. Install dependencies:
+    ```bash
+    cd shadow-protocol-nexus
+    npm install
+    ```
 
-Follow these steps:
+3. Run the development server:
+    ```bash
+    npm run dev
+    ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+ 📁 Project Structure
+ src/
+├── components/      # Modular UI elements (e.g., buttons, cards, forms)
+├── pages/           # Application pages (e.g., dashboard, login, settings)
+├── lib/             # Utility functions and helpers (e.g., API calls, validation)
+├── assets/          # Images, icons, encrypted media
+└── App.tsx          # Main app entry point
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+ 🧩 Customize It
 
-# Step 3: Install the necessary dependencies.
-npm i
+Want to build your own digital control hub? Fork it or use this as a base for intelligence-level apps.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+ 📜 License
 
-**Edit a file directly in GitHub**
+MIT — but feel free to build your own private fork 🔐
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
 
-**Use GitHub Codespaces**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/788408ac-7219-49a2-a1cc-7b5d3f21c900) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
