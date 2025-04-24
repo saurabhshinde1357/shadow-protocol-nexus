@@ -38,13 +38,7 @@ An ultra-secure, high-performance frontend built for classified-level intelligen
     ```bash
     npm run dev
     ```
-     📁 Project Structure
-src/
-├── components/      # Modular UI elements (buttons, cards, forms)
-├── pages/           # Application pages (dashboard, login, settings)
-├── lib/             # Utility functions (API calls, validation)
-├── assets/          # Images, icons, encrypted media
-└── App.tsx          # Main app entry point
+
 
 
  🧩 Customize It
