@@ -2,7 +2,7 @@
 import React from 'react';
 import { ShieldAlert } from 'lucide-react';
 
-const Logo: React.FC = () => {
+const Logo = () => {
   return (
     <div className="flex items-center gap-2">
       <div className="relative">

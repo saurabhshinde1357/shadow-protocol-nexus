@@ -3,23 +3,7 @@ import React from 'react';
 import { Card } from '@/components/ui/card';
 import { cn } from '@/lib/utils';
 
-interface StatCardProps {
-  icon: React.ReactNode;
-  title: string;
-  value: string | number;
-  change?: string;
-  trend?: 'up' | 'down' | 'neutral';
-  color?: 'blue' | 'pink' | 'purple' | 'green' | 'yellow' | 'red';
-}
-
-const StatCard: React.FC<StatCardProps> = ({ 
-  icon, 
-  title, 
-  value, 
-  change, 
-  trend = 'neutral',
-  color = 'blue' 
-}) => {
+const StatCard = ({ icon, title, value, change, trend = 'neutral', color = 'blue' }) => {
   const colorClasses = {
     blue: 'border-cyber-neon-blue shadow-[0_0_10px_theme(colors.cyber.neon-blue)] text-cyber-neon-blue',
     pink: 'border-cyber-neon-pink shadow-[0_0_10px_theme(colors.cyber.neon-pink)] text-cyber-neon-pink',
@@ -59,7 +43,6 @@ const StatCard: React.FC<StatCardProps> = ({
         </div>
       </div>
       
-      {/* Animated border effect */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute inset-0 border rounded-md opacity-30 animate-pulse-border" 
           style={{animationDelay: '0.5s'}}></div>
